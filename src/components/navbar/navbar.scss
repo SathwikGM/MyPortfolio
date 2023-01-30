@@ -1,0 +1,21 @@
+li {
+    list-style: none;
+    
+}
+
+.nav-container{
+    position: fixed;
+    width: 100%;
+    .nav-links{
+        display: flex;
+        text-decoration: none;
+        
+        background-color: #000;
+
+        .link {
+                
+                color: #fff;
+            }
+    }
+    
+}

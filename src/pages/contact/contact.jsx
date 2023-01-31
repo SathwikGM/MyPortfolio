@@ -4,12 +4,24 @@ const Contact = () => {
   return (
     <>
       <div className="contact-container">
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore illo,
-          quas tenetur eius dolorem omnis repellat cupiditate voluptates
-          doloremque fuga modi fugiat molestiae temporibus, harum ipsam dolorum
-          eum? Odio, eum.
-        </p>
+        <div className="">
+          <a
+            className="footer-link"
+            href="https://www.linkedin.com/in/sathwikgm/"
+          >
+            <i
+              className="fa fa-linkedin-square"
+              style={{ fontSize: "24px" }}
+            ></i>
+            LinkedIn
+          </a>
+          <a className="footer-link" href="https://github.com/SathwikGM">
+            <i class="fa fa-github" style={{ fontSize: "24px" }}></i>GitHub
+          </a>
+          {/* <a className="footer-link" href="">
+              Email
+            </a> */}
+        </div>
       </div>
     </>
   );

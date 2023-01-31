@@ -27,11 +27,11 @@ const Navbar = () => {
                 ABOUT
               </NavLink>
             </li>
-            <li>
+            {/* <li>
               <NavLink className="link" to="/skills">
                 SKILLS
               </NavLink>
-            </li>
+            </li> */}
             <li>
               <NavLink className="link" to="/projects">
                 PROJECTS
